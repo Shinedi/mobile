@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="js/jquery.mobile-1.4.5.min.css"/>
+    <script src="js/jquery-2.2.0.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+    <div data-role="page">
+     <div data-role="header"></div>
+     <!--按钮显示时指定图标位置，要给每个按钮单个添加data-inline才能显示在一行-->
+     <div data-role="content" >
+         <a href="#" data-role="button" data-icon="plus" data-iconpos="right" data-inline="true" data-theme="b">Plus</a>
+         <a href="#" data-role="button" data-icon="minus" data-iconpos="right" data-inline="true" data-theme="b">Minus</a>
+     </div>
+        <div data-role="footer"></div>
+        <!--组按钮-->
+        <div data-role="controlgroup" data-type="horizontal" >
+            <a href="#" data-role="button" data-icon="plus" data-iconpos="right"  >Plus</a>
+            <a href="#" data-role="button" data-icon="minus" data-iconpos="right">Minus</a>
+        </div>
+    </div>
+</body>
+</html>
